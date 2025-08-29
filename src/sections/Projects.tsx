@@ -5,12 +5,12 @@ import ProjectCard from '../components/ui/ProjectCard';
 import projects from '../data/projects';
 
 const Projects: React.FC = () => {
-  const [visibleProjects, setVisibleProjects] = useState(3);
+  const [visibleProjects, setVisibleProjects] = useState(6);
   
   const displayedProjects = projects.slice(0, visibleProjects);
   
   const loadMore = () => {
-    setVisibleProjects((prev) => Math.min(prev + 3, projects.length));
+    setVisibleProjects((prev) => Math.min(prev + 6, projects.length));
   };
   
   return (
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
           ))}
         </div>
         
-        {projects.length > 3 && visibleProjects < projects.length && (
+        {projects.length > 6 && visibleProjects < projects.length && (
           <motion.div 
             className="flex justify-center mt-8 sm:mt-10"
             initial={{ opacity: 0 }}

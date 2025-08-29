@@ -2,6 +2,7 @@ import type { Project } from '../types';
 import greenora from '../assets/greenora.png';
 import stepEx from '../assets/stepex.png';
 import aadharOCR from "../assets/aadharocr.png";
+import urlShortener from "../assets/url-shortener.png";
 
 const projects: Project[] = [
 
@@ -32,7 +33,17 @@ const projects: Project[] = [
     tags: ["React.js", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "Multer", "Google Cloud Vision API", "Vite", "Axios"],
     liveUrl: 'https://aadhaar-ocr.mhdrafi.online/', // replace with actual live URL if deployed
     sourceUrl: 'https://github.com/muhammedrafi-kp/aadhaar-ocr-system.git', // replace with your actual GitHub repo
-  }
+  },
+  {
+    id: 4,
+    title: 'URL Shortener Application',
+    description: 'A full-stack app to convert long URLs into short, shareable links with persistent history. Includes secure authentication, role-based access, and user dashboards for managing links.',
+    image: urlShortener, // replace with the actual imported image variable
+    tags: ["React.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Axios", "JWT", "Redux"],
+    liveUrl: 'https://app.shorturl.mhdrafi.online/',
+    sourceUrl: 'https://github.com/muhammedrafi-kp/url-shortener.git',
+  },
+
   // {
   //   id: 4,
   //   title: 'Weather Dashboard',
