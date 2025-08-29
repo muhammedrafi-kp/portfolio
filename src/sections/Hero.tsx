@@ -121,7 +121,7 @@ const Hero: React.FC = () => {
                             transition={{ delay: 1.3, duration: 0.7 }}
                         >
                             <a
-                                href="https://www.linkedin.com/in/mhdrafi10/"
+                                href="https://github.com/muhammedrafi-kp"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-400 hover:text-primary-400 transition-colors"
